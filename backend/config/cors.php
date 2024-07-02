@@ -19,7 +19,9 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:3030')],
+    'allowed_origins' => [env('FRONTEND_URL', 'https://myskin.teluproject.site')],
+
+    // 'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:3030')],
 
     'allowed_origins_patterns' => [],
 
